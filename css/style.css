@@ -216,7 +216,7 @@ body {
 .summery-details{
     max-width: 500px;
     width: 100%;
-    background-color: rgba(49, 70, 121, 0.8);
+    background-color: rgb(235, 236, 238);
     color: #fff;
     padding: 24px;
     border-radius: 12px;
@@ -239,7 +239,7 @@ body {
     margin-bottom: 24px;
     font-size: 18px;
     line-height: 1.7;
-    color: #ffffff;
+    color: rgba(37, 55, 96);
 
 }
 /*==languages=========================*/
