@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==Title====================================================-->
+    <title>Xinyu Li's Cooking Photos</title>
+    <!--==CSS======================================================-->
+    <link rel="stylesheet" href="css/slider.css"/>
+    <!--==Using-Font-Awesome-for-Icons=============================-->
+    <script src="https://kit.fontawesome.com/6bd6c771de.js" crossorigin="anonymous"></script>
+    <!--==Import-Font-Family-From-Google-Font======================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+
+
+<!--==Slider============================-->
+<section id="slider-section">
+
+
+    <!--**Swiper******************************-->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <!--**slider-box**********************-->
+                <div class="slider-box">
+                    <!--**img**-->
+                    <div class="slider-box-img">
+
+                        <img src="images/dish1.JPG"/>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <!--**slider-box**********************-->
+                <div class="slider-box">
+                    <!--**img**-->
+                    <div class="slider-box-img">
+
+                        <img class="box-main-img" src="images/dish2.jpg"/>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <!--**slider-box**********************-->
+                <div class="slider-box">
+                    <!--**img**-->
+                    <div class="slider-box-img">
+
+                        <img src="images/dish3.JPG"/>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <!--**slider-box**********************-->
+                <div class="slider-box">
+                    <!--**img**-->
+                    <div class="slider-box-img">
+
+                        <img src="images/dish4.JPG"/>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <!--**slider-box**********************-->
+                <div class="slider-box">
+                    <!--**img**-->
+                    <div class="slider-box-img">
+
+                        <img src="images/dish5.jpg"/>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <!--**slider-box**********************-->
+                <div class="slider-box">
+                    <!--**img**-->
+                    <div class="slider-box-img">
+
+                        <img src="images/dish6.JPG"/>
+
+                    </div>
+<!--                    <div class="slider-box-text">-->
+<!--                        <p>  oreo chocolate cake-->
+<!--                            </p>-->
+<!--                    </div>-->
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <!--**slider-box**********************-->
+                <div class="slider-box">
+                    <!--**img**-->
+                    <div class="slider-box-img">
+
+                        <img src="images/dish7.jpg"/>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <!--**slider-box**********************-->
+                <div class="slider-box">
+                    <!--**img**-->
+                    <div class="slider-box-img">
+
+                        <img src="images/dish8.JPG"/>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            500: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            1200: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+            },
+        },
+    });
+</script>
+
+</body>
+</html>
